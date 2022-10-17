@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">AppGerdoc</string>
+    <string name="usuario_label">Usuario</string>
+    <string name="password_label">Contraseña</string>
+    <string name="olvcontraseña">Olvide mi contraseña</string>
+    <string name="login">Iniciar</string>
+    <string name="registro">Registrarse</string>
+    <string name="email">email</string>
+    <string name="gustos">¿que musica le gusta?</string>
+    <string name="pop">Pop</string>
+    <string name="dance">Dance</string>
+    <string name="rock">Rock</string>
+    <string name="hombre">hombre</string>
+    <string name="mujer">mujer</string>
+    <string name="genero">Genero</string>
+    <string name="fec_nac">Fecha de nacimiento</string>
+    <string name="numero">Celular de contacto</string>
+    <string name="in">55</string>
+    <string name="inicio_sesion">Iniciar sesión</string>
+    <string name="intro">cree en ti mismo</string>
+    <string name="Modo">Modo gay</string>
+    <string name="comida">¿que comida prefieres?</string>
+    <string name="name">Nombre</string>
+    <string name="pick">elegir</string>
+    <string name="entrada">Felicitaciones, lograste entrar :)</string>
+    <string name="titulo1">Menu principal</string>
+</resources>

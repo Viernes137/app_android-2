@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4F3A7F"
+    tools:context=".activity_login">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="380dp"
+        android:layout_height="580dp"
+        android:elevation="12dp"
+        app:cardCornerRadius="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.496">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#1A0B4C">
+
+            <EditText
+                android:id="@+id/user"
+                android:layout_width="300dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/edtext_bg"
+                android:ems="10"
+                android:hint="@string/usuario_label"
+                android:inputType="textPersonName"
+                android:paddingStart="15dp"
+                android:textColorHint="#311B92"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+
+            <EditText
+                android:id="@+id/pswds"
+                android:layout_width="300dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="36dp"
+                android:background="@drawable/edtext_bg"
+                android:ems="10"
+                android:hint="@string/password_label"
+                android:inputType="textPassword"
+                android:paddingStart="15dp"
+                android:textColorHint="#311B92"
+                app:layout_constraintEnd_toEndOf="@+id/user"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/user"
+                app:layout_constraintTop_toBottomOf="@+id/user" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="64dp"
+                android:text="@string/titulo1"
+                android:textColor="@color/calabaza"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="280dp"
+                android:layout_height="55dp"
+                android:layout_marginBottom="72dp"
+                android:backgroundTint="@color/calabaza"
+                android:elevation="6dp"
+                android:text="@string/olvcontraseña"
+                app:cornerRadius="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="210dp"
+                android:text="@string/usuario_label"
+                app:layout_constraintBottom_toTopOf="@+id/user"
+                app:layout_constraintEnd_toEndOf="@+id/user"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/user"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <LinearLayout
+                android:layout_width="368dp"
+                android:layout_height="86dp"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toTopOf="@+id/button3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/pswds">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/button"
+                        android:layout_width="140dp"
+                        android:layout_height="55dp"
+                        android:layout_marginStart="30dp"
+                        android:backgroundTint="@color/calabaza"
+                        android:elevation="6dp"
+                        android:text="@string/login"
+                        app:cornerRadius="20dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/button2"
+                        app:layout_constraintHorizontal_bias="0.325"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:ignore="DuplicateSpeakableTextCheck" />
+
+                    <Button
+                        android:id="@+id/button2"
+                        android:layout_width="140dp"
+                        android:layout_height="55dp"
+                        android:layout_marginEnd="30dp"
+                        android:backgroundTint="@color/calabaza"
+                        android:elevation="6dp"
+                        android:text="@string/registro"
+                        app:cornerRadius="20dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </LinearLayout>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
