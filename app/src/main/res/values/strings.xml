@@ -24,4 +24,6 @@
     <string name="pick">elegir</string>
     <string name="entrada">Felicitaciones, lograste entrar :)</string>
     <string name="titulo1">Menu principal</string>
+    <string name="PagPrincipal">Tus contraseñas</string>
+    <string name="Regresar">←</string>
 </resources>
